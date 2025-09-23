@@ -6,6 +6,7 @@ To build a PyTorch-based neural network that predicts whether an individual earn
 # PROCEDURE:
 ## 1.Data Loading and Exploration
 The project begins with loading the Census Income dataset (income.csv) into a Pandas DataFrame. The dataset contains 30,000 entries, each representing demographic and occupational attributes. Initial exploration involves viewing the first and last few rows, checking the total number of entries, and analyzing the distribution of the target label (label). This step ensures that the dataset is clean, structured, and suitable for further processing.
+
 ## 2.Feature Identification and Categorization
 The dataset is divided into three types of features. Categorical features include sex, education, marital-status, workclass, and occupation, which will later be processed using embedding layers. Continuous features, such as age and hours-per-week, will be normalized and used directly in the model. The target feature, label, represents the binary income class. Proper categorization ensures that each type of data is handled appropriately in the model.
 
